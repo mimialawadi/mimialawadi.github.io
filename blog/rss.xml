@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Mariam's Website Blog</title>
+        <link>https://mariams.website/blog</link>
+        <description>Mariam's Website Blog</description>
+        <lastBuildDate>Sun, 06 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Lessons I've Learned]]></title>
+            <link>https://mariams.website/blog/2024/10/06/lessons-learned</link>
+            <guid>https://mariams.website/blog/2024/10/06/lessons-learned</guid>
+            <pubDate>Sun, 06 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[I turned thirty-three yesterday, so I thought I'd reflect on some lessons I've learned during my time alive.]]></description>
+            <content:encoded><![CDATA[<p>I turned thirty-three yesterday, so I thought I'd reflect on some lessons I've learned during my time alive.</p>
+<p>I don't know about the veracity of any of the lessons I've learned. I do know, however, that they've added value to my life.</p>
+<p>Here they are:</p>
+<ol>
+<li>Treat people like they are doing they best they can no matter what. Myself, included</li>
+</ol>
+<p>This has taught me to make space for my or someone else's mistakes. It takes the sting out of being mistreated, also, knowing that the person mistreating you is acting to the highest of their ability and not being able to meet you where you need to be met.</p>
+<ol start="2">
+<li>The lesson from "let he who is without sin cast the first stone." This one ties into the one above</li>
+</ol>
+<p>It's so easy to judge anyone for anything they may be doing. I used to be very judgmental, but I'm trying to change and allow for grace to grow in my life.</p>
+<ol start="3">
+<li>Nurture good relationships. Evaluate relationships fairly</li>
+</ol>
+<p>Good friends are hard to find, and even harder to keep. It's important to know which relationships add value to your life and work on maintaining them.</p>
+<p>Those are the ones most important to me right now. I am doing my best to embody them.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

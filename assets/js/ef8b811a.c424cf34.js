@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[947],{6600:a=>{a.exports=JSON.parse('{"authors":[{"name":"Mariam Al-Awadi","url":"https://mariams.website","page":{"permalink":"/blog/authors/mariam"},"socials":{"github":"https://github.com/mimialawadi"},"key":"mariam","count":0}]}')}}]);

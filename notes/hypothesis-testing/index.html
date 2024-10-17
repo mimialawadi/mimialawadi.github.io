@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-notes/hypothesis-testing" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">Hypothesis Testing | Mariam&#x27;s Website</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://mariams.website/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://mariams.website/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://mariams.website/notes/hypothesis-testing"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Hypothesis Testing | Mariam&#x27;s Website"><meta data-rh="true" name="description" content="Notes I&#x27;ve taken on hypothesis testing, mostly comprising of information from courses on codecademy.com."><meta data-rh="true" property="og:description" content="Notes I&#x27;ve taken on hypothesis testing, mostly comprising of information from courses on codecademy.com."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://mariams.website/notes/hypothesis-testing"><link data-rh="true" rel="alternate" href="https://mariams.website/notes/hypothesis-testing" hreflang="en"><link data-rh="true" rel="alternate" href="https://mariams.website/notes/hypothesis-testing" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Mariam&#39;s Website RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Mariam&#39;s Website Atom Feed">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.f18582ab.css">
+<script src="/assets/js/runtime~main.b4d70f5d.js" defer="defer"></script>
+<script src="/assets/js/main.062cc513.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Mariam&#x27;s Website</b></a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Welcome</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/about-me">About Me</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/doodles">Doodles</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/category/general-notes">General Notes</a><button aria-label="Collapse sidebar category &#x27;General Notes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/notes/hypothesis-testing">Hypothesis Testing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/notes/procrastination-tips">Procrastination: Seven Tips</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/notes/sample-size-determination">Sample Size Determination</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/petro-notes">Petro Notes</a><button aria-label="Expand sidebar category &#x27;Petro Notes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/category/general-notes"><span itemprop="name">General Notes</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Hypothesis Testing</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Hypothesis Testing</h1></header>
+<p>Notes I&#x27;ve taken on hypothesis testing, mostly comprising of information from courses on <a href="http://codecademy.com" target="_blank" rel="noopener noreferrer">codecademy.com</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="types-of-errors">Types of Errors<a href="#types-of-errors" class="hash-link" aria-label="Direct link to Types of Errors" title="Direct link to Types of Errors">​</a></h2>
+<ul>
+<li>Type 1 error: false positive, rejecting a null hypothesis that is actually true in the population</li>
+<li>Type 2 error: false negative, failing to reject a null hypothesis that is actually false in the population</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="null-hypothesis">Null Hypothesis<a href="#null-hypothesis" class="hash-link" aria-label="Direct link to Null Hypothesis" title="Direct link to Null Hypothesis">​</a></h2>
+<ul>
+<li>There&#x27;s no association between the variables</li>
+<li>The p-value is the probability that we incorrectly reject the null hypothesis</li>
+<li>p-value &lt; alpha means the variables are significantly different and the null hypothesis <em>can be rejected</em> in favor of the alternative hypothesis</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="numerical-data">Numerical Data<a href="#numerical-data" class="hash-link" aria-label="Direct link to Numerical Data" title="Direct link to Numerical Data">​</a></h2>
+<p>Samples should be:</p>
+<ol>
+<li>Normally distributed</li>
+<li>Have equal standard deviations (std ratio between 0.9 - 1.1)</li>
+<li>Independent</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-sample-t-test">1 Sample T-Test<a href="#1-sample-t-test" class="hash-link" aria-label="Direct link to 1 Sample T-Test" title="Direct link to 1 Sample T-Test">​</a></h3>
+<ul>
+<li>Compares a sample mean to a hypothetical population mean</li>
+<li><strong>Null hypothesis</strong>: a prediction that the observed sample comes from a population with the same mean<!-- -->
+<ul>
+<li>The population mean equals the specified mean value</li>
+</ul>
+</li>
+<li><strong>Alternative hypothesis</strong>: a prediction that the observed sample comes from a population with a different mean<!-- -->
+<ul>
+<li>The population mean is different from the specified mean value</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-sample-t-test">2 Sample T-Test<a href="#2-sample-t-test" class="hash-link" aria-label="Direct link to 2 Sample T-Test" title="Direct link to 2 Sample T-Test">​</a></h3>
+<ul>
+<li>Compares two sets of numerical data</li>
+<li><strong>Null hypothesis</strong>: the two observed samples come from populations of the same mean</li>
+<li><strong>Alternative hypothesis</strong>: the two observed samples come from populations of different means</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="anova-analysis-of-variance-test">ANOVA (Analysis of Variance) Test<a href="#anova-analysis-of-variance-test" class="hash-link" aria-label="Direct link to ANOVA (Analysis of Variance) Test" title="Direct link to ANOVA (Analysis of Variance) Test">​</a></h3>
+<ul>
+<li><strong>Null hypothesis</strong>: all of the samples come from populations with the same mean</li>
+<li><strong>Alternative hypothesis</strong>: at least one pair of populations (from which the samples were drawn) have different means; however, we cannot determine exactly which pair(s)</li>
+<li>We can’t make any conclusions on which two populations have a significant difference</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tukeys-range-test">Tukey&#x27;s Range Test<a href="#tukeys-range-test" class="hash-link" aria-label="Direct link to Tukey&#x27;s Range Test" title="Direct link to Tukey&#x27;s Range Test">​</a></h3>
+<ul>
+<li>To determine which datasets are different</li>
+<li>From statsmodels, not scipy</li>
+<li>We have to provide the function with <strong>one list of all of the data</strong> and a <strong>list of labels</strong> that tell the function which elements of the list are from which set</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="categorical-data">Categorical Data<a href="#categorical-data" class="hash-link" aria-label="Direct link to Categorical Data" title="Direct link to Categorical Data">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="binomial-test">Binomial Test<a href="#binomial-test" class="hash-link" aria-label="Direct link to Binomial Test" title="Direct link to Binomial Test">​</a></h3>
+<ul>
+<li>The binomial distribution describes the number of expected “successes” in an experiment with some number of “trials”</li>
+<li><strong>Null hypothesis</strong>: the sample comes from a binomial distribution with the same <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em"></span><span class="mord mathnormal">p</span></span></span></span></li>
+<li><strong>Alternative hypothesis</strong>: the sample comes from a binomial distribution with a different <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em"></span><span class="mord mathnormal">p</span></span></span></span></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chi-squared">Chi Squared<a href="#chi-squared" class="hash-link" aria-label="Direct link to Chi Squared" title="Direct link to Chi Squared">​</a></h3>
+<ul>
+<li>The probability that the outcome  of two categorical variables are associated</li>
+<li>Columns are different conditions, rows are different outcomes</li>
+<li><strong>Null hypothesis</strong>: there is no association between the variables</li>
+<li><strong>Alternative hypothesis</strong>: there is a statistically significant association between the variables</li>
+</ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/category/general-notes"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">General Notes</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/notes/procrastination-tips"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Procrastination: Seven Tips</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types-of-errors" class="table-of-contents__link toc-highlight">Types of Errors</a></li><li><a href="#null-hypothesis" class="table-of-contents__link toc-highlight">Null Hypothesis</a></li><li><a href="#numerical-data" class="table-of-contents__link toc-highlight">Numerical Data</a><ul><li><a href="#1-sample-t-test" class="table-of-contents__link toc-highlight">1 Sample T-Test</a></li><li><a href="#2-sample-t-test" class="table-of-contents__link toc-highlight">2 Sample T-Test</a></li><li><a href="#anova-analysis-of-variance-test" class="table-of-contents__link toc-highlight">ANOVA (Analysis of Variance) Test</a></li><li><a href="#tukeys-range-test" class="table-of-contents__link toc-highlight">Tukey&#39;s Range Test</a></li></ul></li><li><a href="#categorical-data" class="table-of-contents__link toc-highlight">Categorical Data</a><ul><li><a href="#binomial-test" class="table-of-contents__link toc-highlight">Binomial Test</a></li><li><a href="#chi-squared" class="table-of-contents__link toc-highlight">Chi Squared</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>

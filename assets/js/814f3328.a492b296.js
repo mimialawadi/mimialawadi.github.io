@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Lessons I\'ve Learned","permalink":"/blog/2024/10/06/lessons-learned","unlisted":false,"date":"2024-10-06T00:00:00.000Z"}]}')}}]);
